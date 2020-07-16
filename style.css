@@ -11,43 +11,64 @@ body {
 }
 body h1 {
     font-family: 'Indie Flower', cursive;
+    font-size: 28px;
 }
 
 h1 {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
-#ortala img {
+#app{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
     padding-bottom: 50px;
-
+    height: 100vh;
 }
 
-div {
+#container {
+    width: 500px;
+    background-color: rgb(240, 232, 232, 0.5);
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+}
+#ortala img {
+    padding-bottom: 20px;
+    height: 250px;
+    width: 250px;
+
 }
 
 input, button {
     display: inline-block;
-    padding: 10px;
+    padding: 7px;
     text-align: center;
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
     font-weight: 700;
     border-radius: 3px;
-    border: 0.5px solid rgb(216, 123, 123);
+    border: 0.5px solid rgb(29, 11, 11);
 }
 
 button {
     cursor: pointer;
     background-color: white;
     color: rgb(36, 117, 163);
+    margin: 10px;
 }
 
 button:hover {
     transform: rotateX(360deg);
     transition: all 1s ease;
+}
+
+#buton2 {
+    margin-bottom: 20px;
 }
